@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:background="@android:color/black">
+
+    <Button
+        android:id="@+id/process"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Process Info"
+        android:onClick="info"
+        android:background="@android:color/transparent"
+        android:textSize="25dp"
+        android:textColor="#ff00ff00"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:id="@+id/memory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Memory Info"
+        android:onClick="info"
+        android:background="@android:color/transparent"
+        android:textSize="25dp"
+        android:textColor="#ff00ff00"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:id="@+id/cpu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CPU Info"
+        android:onClick="info"
+        android:background="@android:color/transparent"
+        android:textSize="25dp"
+        android:textColor="#ff00ff00"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:id="@+id/version"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Version Kernel Info"
+        android:onClick="info"
+        android:background="@android:color/transparent"
+        android:textSize="25dp"
+        android:textColor="#ff00ff00"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Date Info"
+        android:onClick="info"
+        android:background="@android:color/transparent"
+        android:textSize="25dp"
+        android:textColor="#ff00ff00"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:id="@+id/contacts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="List Contacts"
+        android:onClick="info"
+        android:background="@android:color/transparent"
+        android:textSize="25dp"
+        android:textColor="#ff00ff00"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:id="@+id/authors"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Developers"
+        android:onClick="info"
+        android:background="@android:color/transparent"
+        android:textSize="25dp"
+        android:textColor="#ff00ff00"
+        android:layout_gravity="center_horizontal" />
+
+</LinearLayout>
